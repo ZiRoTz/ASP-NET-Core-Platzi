@@ -8,8 +8,8 @@ namespace ASP_NET_y_GIT.Controllers
         public IActionResult Index()
         {
             var escuela= new Escuela();
-            escuela.añoFundacion = 1997;
-            escuela.EscuelaID=Guid.NewGuid().ToString();
+            escuela.añodeCreación = 1997;
+            escuela.UniqueID=Guid.NewGuid().ToString();
             escuela.Nombre="ESIME CULHUACAN";
             return View(escuela);
         }
