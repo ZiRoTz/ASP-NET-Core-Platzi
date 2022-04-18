@@ -11,6 +11,8 @@ namespace ASP_NET_y_GIT.Controllers
             escuela.añodeCreación = 1997;
             escuela.UniqueID=Guid.NewGuid().ToString();
             escuela.Nombre="ESIME CULHUACAN";
+            escuela.Universidad="Instituto Politécnico Nacional";
+            escuela.Direccion="Culhuacan";
             return View(escuela);
         }
     }
