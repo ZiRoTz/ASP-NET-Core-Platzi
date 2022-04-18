@@ -16328,6 +16328,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\rille\\Desktop\\Platzi\\ASP-NET-y-GIT\\Views\\Materia\\MultiMateria.cshtml",
+      "TargetPath": "Views\\Materia\\MultiMateria.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\rille\\Desktop\\Platzi\\ASP-NET-y-GIT\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -16340,6 +16345,11 @@
     {
       "FilePath": "c:\\Users\\rille\\Desktop\\Platzi\\ASP-NET-y-GIT\\Views\\Escuela\\Index.cshtml",
       "TargetPath": "Views\\Escuela\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\rille\\Desktop\\Platzi\\ASP-NET-y-GIT\\Views\\Shared\\MateriaSimple.cshtml",
+      "TargetPath": "Views\\Shared\\MateriaSimple.cshtml",
       "FileKind": "mvc"
     }
   ],
