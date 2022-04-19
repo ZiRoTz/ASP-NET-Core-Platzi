@@ -6,9 +6,21 @@ namespace ASP_NET_y_GIT.Controllers
     public class AlumnoController : Controller
     {
 
-        public IActionResult Index()
+        [Route("Alumno/Index/")]
+        [Route("Alumno/Index/{id}")]
+        public IActionResult Index(string id)
         {
-            return View(_context.Alumno.FirstOrDefault());
+            if (!string.IsNullOrWhiteSpace(id))
+            {
+            var alumnos = from alum in _context.Alumno
+                            where alum.ID == id
+                            select alum;
+
+            return View(alumnos.SingleOrDefault());
+            }
+            else{
+                return View("MultiAlumno", _context.Alumno);
+            }
         }
         public IActionResult MultiAlumno()
         {
