@@ -5,15 +5,15 @@ namespace ASP_NET_y_GIT.Controllers
 {
     public class EscuelaController : Controller
     {
+        private EscuelaContext _context;
         public IActionResult Index()
         {
-            var escuela= new Escuela();
-            escuela.añodeCreación = 1997;
-            escuela.UniqueID=Guid.NewGuid().ToString();
-            escuela.Nombre="ESIME CULHUACAN";
-            escuela.Universidad="Instituto Politécnico Nacional";
-            escuela.Direccion="Culhuacan";
-            return View(escuela);
+            var escuela =_context.Escuelas.FirstOrDefault();
+            return View(escuela);  
+        }
+        public EscuelaController(EscuelaContext context)
+        {
+            _context=context;
         }
     }
 }

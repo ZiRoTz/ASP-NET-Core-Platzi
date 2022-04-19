@@ -9,7 +9,7 @@ namespace ASP_NET_y_GIT.Controllers
         public IActionResult Index()
         {
             return View(new Alumnos{Nombre="Humanidades IV",
-                                UniqueID=Guid.NewGuid().ToString()});
+                                ID=Guid.NewGuid().ToString()});
         }
         public IActionResult MultiAlumno()
         {
@@ -30,10 +30,10 @@ namespace ASP_NET_y_GIT.Controllers
             var listaAlumnos = from n1 in nombre1
                                from a1 in apellido1
                                from a2 in apellido2
-                               select new Alumnos { Nombre = $"{n1} {a1} {a2}", UniqueID=Guid.NewGuid().ToString()};
+                               select new Alumnos { Nombre = $"{n1} {a1} {a2}", ID=Guid.NewGuid().ToString()};
                                                     
 
-            return listaAlumnos.OrderBy((al) => al.UniqueID).Take(30).ToList();
+            return listaAlumnos.OrderBy((al) => al.ID).Take(30).ToList();
         }
     }
 }
