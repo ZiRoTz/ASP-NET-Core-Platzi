@@ -5,10 +5,21 @@ namespace ASP_NET_y_GIT.Controllers
 {
     public class MateriaController : Controller
     {
-
-        public IActionResult Index()
+        [Route("Materia/Index/")]
+        [Route("Materia/Index/{asignaturaID}")]
+        public IActionResult Index(string asignaturaID)
         {
-            return View(_context.Materia.FirstOrDefault());
+            if (!string.IsNullOrWhiteSpace(asignaturaID))
+            {
+            var asignatura = from asig in _context.Materia
+                            where asig.ID == asignaturaID
+                            select asig;
+
+            return View(asignatura.SingleOrDefault());
+            }
+            else{
+                return View("MultiMateria", _context.Materia);
+            }
         }
         public IActionResult MultiMateria()
         {
