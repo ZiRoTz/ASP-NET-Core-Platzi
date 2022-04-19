@@ -4,13 +4,6 @@
 }
 
 <h1>@ViewData["Title"]</h1>
+<h2>Nombre: @Model.Nombre</h2>
 
-<strong>Desde la vista normal</strong>
-<p> Nombre: @Model.Nombre<br/>
-    ID: @Model.UniqueID
-</p>
-
-
-<strong>Desde la vista parcial</strong>
-<partial name="MateriaSimple"  /></partial>
 <p><i>@ViewBag.Fecha</i></p>
