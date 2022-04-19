@@ -16308,6 +16308,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\rille\\Desktop\\Platzi\\ASP-NET-y-GIT\\Views\\Alumno\\MultiAlumno.cshtml",
+      "TargetPath": "Views\\Alumno\\MultiAlumno.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\rille\\Desktop\\Platzi\\ASP-NET-y-GIT\\Views\\Alumno\\Index.cshtml",
+      "TargetPath": "Views\\Alumno\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\rille\\Desktop\\Platzi\\ASP-NET-y-GIT\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -16323,8 +16333,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\rille\\Desktop\\Platzi\\ASP-NET-y-GIT\\Views\\Shared\\ObjetoEscuelaSimple.cshtml",
+      "TargetPath": "Views\\Shared\\ObjetoEscuelaSimple.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\rille\\Desktop\\Platzi\\ASP-NET-y-GIT\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\rille\\Desktop\\Platzi\\ASP-NET-y-GIT\\Views\\Materia\\MultiMateria.cshtml",
+      "TargetPath": "Views\\Materia\\MultiMateria.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16340,6 +16360,11 @@
     {
       "FilePath": "c:\\Users\\rille\\Desktop\\Platzi\\ASP-NET-y-GIT\\Views\\Escuela\\Index.cshtml",
       "TargetPath": "Views\\Escuela\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\rille\\Desktop\\Platzi\\ASP-NET-y-GIT\\Views\\Shared\\ListaObjetosEscuela.cshtml",
+      "TargetPath": "Views\\Shared\\ListaObjetosEscuela.cshtml",
       "FileKind": "mvc"
     }
   ],
