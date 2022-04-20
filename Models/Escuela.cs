@@ -3,7 +3,7 @@ public class Escuela : ObjetoEscuelaBase
 {
     public int añodeCreación { get; set; }
     public string Universidad { get; set; }
-    public List<Grupos> Grupo { get; set; }
+    
     public Escuela()
     {
 
