@@ -1,0 +1,16 @@
+﻿@model Grupos
+@{
+    ViewData["Title"] = "Información Curso";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<strong>Desde la vista normal</strong>
+<p> Nombre: @Model.Nombre<br/>
+    ID: @Model.ID
+</p>
+
+
+<strong>Desde la vista parcial</strong>
+<partial name="ObjetoEscuelaSimple"  /></partial>
+<p><i>@ViewBag.Fecha</i></p>

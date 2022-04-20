@@ -5,6 +5,7 @@ namespace ASP_NET_y_GIT.Models;
         public string Nombre { get; set; }
         public ObjetoEscuelaBase()
         {
+            ID = Guid.NewGuid().ToString();
         }
         public override string ToString()
         {
